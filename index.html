@@ -13,34 +13,34 @@
     <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    
-    <style> 
-    header,
-    main,
-    footer {
-            width: 800px;
-            margin-left: calc(50% - 400px);
-            background-color: aqua;
-        }
-    
-    </style>
-
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
-    <header>
-        HEADER CONTENT
-
+    <header class="container main-header">
+        <img class="logo" src="./img/logo.png" alt="Logo">
+        <nav class="main-menu">
+            <a class="menu-link" href="#">Home</a>
+            <a class="menu-link" href="#">Instructors</a>
+            <a class="menu-link" href="#">Schedule</a>
+            <a class="menu-link" href="#">About studio</a>
+            <a class="menu-link" href="#">Blog</a>
+            <a class="menu-link" href="#">Contacts</a>
+        </nav>
     </header>
 
-    <main>
-        MAIN CONTENT
+    <main class="container">
+        <div class="left-column">
+            <h1 class="main-title">Welcome to<br>Yoga <span class="orange">Lifestyle</span> studio!</h1>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sunt sequi necessitatibus quaerat exercitationem repudiandae illum voluptatibus rerum corrupti. Rem?</p>
+            <a class="btn" href="#">Sign up for classes</a>
+        </div>
+        <img class="right-column" src="./img/girl.png" alt="Girl in yoga pose">
     </main>
 
-    <footer>
+    <footer class="container">
         FOOTER CONTENT
     </footer>
-
-    <img src="./Favicon-logo.png" alt="favicon">
 </body>
+
 </html>
